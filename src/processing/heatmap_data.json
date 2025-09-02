@@ -1,0 +1,24 @@
+[
+    {
+        "situation_id": 1,
+        "harassment_type": "Sissing",
+        "latitude": 51.4373898,
+        "longitude": 5.4790859,
+        "street": "Kerkstraat",
+        "number": 2,
+        "place": "Eindhoven",
+        "zip_code": "5611GK",
+        "time": "15-12-2024 21:29"
+    },
+    {
+        "situation_id": 2,
+        "harassment_type": "Catcalling",
+        "latitude": 51.4367992,
+        "longitude": 5.4785851,
+        "street": "Kerkstraat",
+        "number": 3,
+        "place": "Eindhoven",
+        "zip_code": "5611GK",
+        "time": "15-11-2024 21:30"
+    }
+]
