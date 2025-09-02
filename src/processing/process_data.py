@@ -28,40 +28,46 @@ incident_data = []
 def geocode_location(df):
     """Geocode the full addresses in the DataFrame and collect detailed information."""
     for index, row in df.iterrows():
-        try:
-            location = geolocator.geocode(row['full_location'])
-            
-            if location:
-                incident_info = {
-                    "situation_id": row['Situantion_id'],
-                    "harassment_type": row['Harassment_type'] if pd.notna(row['Harassment_type']) else "",
-                    "latitude": location.latitude,
-                    "longitude": location.longitude,
-                    "street": row['Street'],
-                    "number": row['Number'],
-                    "place": row['Place'],
-                    "zip_code": row['Zip_code'],
-                    "time": row['Time']
-                }
-                incident_data.append(incident_info)
-                if DEBUG:
-                    print(f"SUCCESS: {row['full_location']} -> [{location.latitude}, {location.longitude}]")
-            else:
-                print(f"WARNING: Could not find coordinates for: {row['full_location']}")
-
-        except Exception as e:
-            print(f"ERROR: An error occurred for {row['full_location']}: {e}")
-        
+        retries = 3
+        for attempt in range(1, retries + 1):
+            try:
+                location = geolocator.geocode(row['full_location'])
+                if location:
+                    incident_info = {
+                        "situation_id": row['Situantion_id'],
+                        "harassment_type": row['Harassment_type'] if pd.notna(row['Harassment_type']) else "",
+                        "latitude": location.latitude,
+                        "longitude": location.longitude,
+                        "street": row['Street'],
+                        "number": row['Number'],
+                        "place": row['Place'],
+                        "zip_code": row['Zip_code'],
+                        "time": row['Time']
+                    }
+                    incident_data.append(incident_info)
+                    if DEBUG:
+                        print(f"SUCCESS: {row['full_location']} -> [{location.latitude}, {location.longitude}]")
+                    break
+                else:
+                    print(f"WARNING: Could not find coordinates for: {row['full_location']}")
+                    break
+            except Exception as e:
+                print(f"ERROR: Attempt {attempt} for {row['full_location']}: {e}")
+                if attempt < retries:
+                    time.sleep(2)
+                else:
+                    print(f"FAILED: Could not geocode {row['full_location']} after {retries} attempts.")
         time.sleep(1)
     return incident_data
 
 def save_incident_data(df, incident_data):
     """Save the incident data with coordinates to a JSON file."""
     try:
-        with open('heatmap_data.json', 'w') as f:
+        output_path = '../../public/data/heatmaps_data.json'
+        with open(output_path, 'w') as f:
             json.dump(incident_data, f, indent=4)
         if DEBUG:
-            print(f"Saved {len(incident_data)} incidents with coordinates to 'heatmap_data.json'.")
+            print(f"Saved {len(incident_data)} incidents with coordinates to '{output_path}'.")
     except Exception as e:
         print(f"ERROR: Could not save incident data: {e}")
 
