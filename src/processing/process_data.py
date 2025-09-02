@@ -34,7 +34,7 @@ def geocode_location(df):
             if location:
                 incident_info = {
                     "situation_id": row['Situantion_id'],
-                    "harassment_type": row['Harassment_type'],
+                    "harassment_type": row['Harassment_type'] if pd.notna(row['Harassment_type']) else "",
                     "latitude": location.latitude,
                     "longitude": location.longitude,
                     "street": row['Street'],

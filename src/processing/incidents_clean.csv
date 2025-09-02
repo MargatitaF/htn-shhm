@@ -1,3 +1,104 @@
-Situantion_id;Harassment_type;Street;Number;Place;Zip_code;Time
-1;Sissing;Kerkstraat;2;Eindhoven;5611GK;15-12-2024 21:29
-2;Catcalling;Kerkstraat;3;Eindhoven;5611GK;15-11-2024 21:30
+Situantion_id;Harassment_type;Harassment_description;Street;Number;Place;Zip_code;Time
+1;Sissing;;Hubertastraat ;23;Eindhoven;5616 PH;15-12-2024 21:29
+2;Screaming/insulting;;Frederiklaan ;10a;Eindhoven;5616 LX;10-7-2020 09:11
+3;Screaming/insulting;;Frederiklaan ;10a;Eindhoven;5616 LX;4-5-2023 23:01
+4;Intinidation;;Frederiklaan ;10a;Eindhoven;5616 LX;17-9-2024 16:01
+5;Touching;;Frederiklaan ;21;Eindhoven;5616 NB;30-11-2020 13:53
+6;Screaming/insulting;;Markt;22a;Eindhoven;5611 EC;3-3-2020 07:56
+7;Screaming/insulting;;Markt;22a;Eindhoven;5611 EC;13-3-2024 18:55
+8;Sissing;;Markt;22a;Eindhoven;5611 EC;6-6-2020 22:05
+9;Screaming/insulting;;Heuvel Galerie;133;Eindhoven;5611 DK;17-11-2022 23:22
+10;Sissing;;Heuvel Galerie;133;Eindhoven;5611 DK;9-8-2021 09:00
+11;Sissing;;Jan van Lieshoutstraat;30;Eindhoven;5611 EE ;29-6-2023 23:19
+12;Sissing;;"
+Aert Roelofsstraat";11;Eindhoven;5611 WB;24-2-2021 09:16
+13;Sissing;;Nachtegaallaan ;10;Eindhoven;5611 CV;7-4-2022 02:41
+14;Intinidation;;Olmenlaan;112;Eindhoven;5616 LC ;29-10-2023 00:22
+15;punching/kicking;;Olmenlaan;112;Eindhoven;5616 LC ;12-4-2021 16:34
+16;Pushing/dragging;;Olmenlaan;112;Eindhoven;5616 LC ;10-8-2025 23:39
+17;Screaming/insulting;;"
+Aert Roelofsstraat";11;Eindhoven;5611 WB;1-11-2021 03:56
+18;Screaming/insulting;;Jan van Lieshoutstraat;30;Eindhoven;5611 EE ;12-5-2021 03:21
+19;Sissing;;Aakstraat;68;Eindhoven;5616 KP;24-11-2023 13:13
+20;Pushing/dragging;;Aakstraat;12;Eindhoven;5616 KP;11-7-2024 14:16
+21;Sissing;;Aakstraat;24;Eindhoven;5616 KP;24-3-2021 08:30
+22;Screaming/insulting;;Aakstraat;29;Eindhoven;5616 KP;10-6-2024 04:02
+23;Screaming/insulting;;Jan van Lieshoutstraat;30;Eindhoven;5611 EE ;8-1-2020 02:57
+24;Sissing;;"
+Aert Roelofsstraat";11;Eindhoven;5611 WB;24-11-2022 20:16
+25;Screaming/insulting;;Jan van Lieshoutstraat;30;Eindhoven;5611 EE ;30-12-2021 18:09
+26;Sissing;;Smalle Haven ;1;Eindhoven;5611 DE ;31-8-2025 21:59
+27;Sissing;;Smalle Haven ;1;Eindhoven;5611 DE ;5-9-2023 00:44
+28;Sissing;;Smalle Haven ;1;Eindhoven;5611 DE ;6-12-2023 09:36
+29;Screaming/insulting;;Schouwbroekseweg ;26B;Eindhoven;5616 NW;30-7-2025 03:08
+30;Touching;;Schouwbroekseweg ;26B;Eindhoven;5616 NW;6-7-2024 03:11
+31;Sissing;;Schouwbroekseweg ;26B;Eindhoven;5616 NW;18-5-2024 12:17
+32;Screaming/insulting;;Schouwbroekseweg ;43;Eindhoven;5616 NV;12-6-2020 13:40
+33;Sissing;;Schouwbroekseweg ;43;Eindhoven;5616 NV;5-3-2020 14:00
+34;punching/kicking;;Schouwbroekseweg ;43;Eindhoven;5616 NV;20-12-2024 10:49
+35;Sissing;;Den Bult ;108;Eindhoven;5616 GD;29-2-2020 01:23
+36;Screaming/insulting;;Den Bult ;108;Eindhoven;5616 GD;14-5-2025 04:48
+37;Pushing/dragging;;Den Bult ;108;Eindhoven;5616 GD;4-5-2022 04:26
+38;Screaming/insulting;;Strijpsestraat;85;Eindhoven;5616 GL;10-2-2022 09:55
+39;Screaming/insulting;;Strijpsestraat;85;Eindhoven;5616 GL;8-9-2021 14:22
+40;Sissing;;Strijpsestraat;85;Eindhoven;5616 GL;19-1-2025 05:48
+41;Sissing;;Strijpsestraat;85;Eindhoven;5616 GL;27-12-2023 16:42
+42;Pushing/dragging;;Strijpsestraat;85;Eindhoven;5616 GL;12-10-2022 22:29
+43;Sissing;;Kerkakkerstraat;33;Eindhoven;5616 HA;17-4-2023 23:04
+44;Sissing;;Kerkakkerstraat;33;Eindhoven;5616 HA;6-10-2024 17:09
+45;Screaming/insulting;;Kerkakkerstraat;33;Eindhoven;5616 HA;7-6-2022 15:48
+46;Screaming/insulting;;Kerkakkerstraat;33;Eindhoven;5616 HA;29-4-2025 11:19
+47;Sissing;;Kerkakkerstraat;33;Eindhoven;5616 HA;4-9-2024 15:38
+48;Screaming/insulting;;Botterstraat ;8;Eindhoven;5616 KJ;11-9-2020 14:57
+49;Sissing;;Botterstraat ;8;Eindhoven;5616 KJ;21-1-2022 07:44
+50;Touching;;Sint Trudostraat;10;Eindhoven;5616 GB;20-6-2021 13:55
+51;punching/kicking;;Sint Trudostraat;10;Eindhoven;5616 GB;3-6-2025 09:44
+52;Screaming/insulting;;Sint Trudostraat;10;Eindhoven;5616 GB;10-12-2020 14:54
+53;;;Sint Trudostraat;10;Eindhoven;5616 GB;7-3-2023 17:00
+54;Pushing/dragging;;Sint Trudostraat;10;Eindhoven;5616 GB;25-7-2021 05:44
+55;Sissing;;Sint Trudostraat;10;Eindhoven;5616 GB;26-11-2021 21:05
+56;Screaming/insulting;;Sint Trudostraat ;7;Eindhoven;5616 GA ;19-1-2020 02:21
+57;Screaming/insulting;;Sint Trudostraat ;7;Eindhoven;5616 GA ;24-7-2024 04:00
+58;Screaming/insulting;;Strijpsestraat ;137A;Eindhoven;5616 GN;1-10-2021 19:37
+59;Sissing;;Strijpsestraat ;137A;Eindhoven;5616 GN;8-3-2024 13:28
+60;Screaming/insulting;;Strijpsestraat ;137A;Eindhoven;5616 GN;28-3-2021 07:46
+61;Sissing;;Strijpsestraat ;137A;Eindhoven;5616 GN;22-7-2023 22:06
+62;Intinidation;;Beukenlaan;130;Eindhoven;5616 VB�;29-12-2022 06:41
+63;Intinidation;;Beukenlaan;130;Eindhoven;5616 VB�;24-11-2020 16:19
+64;Pushing/dragging;;Beukenlaan;130;Eindhoven;5616 VB�;24-8-2024 00:15
+65;Sissing;;Beukenlaan;130;Eindhoven;5616 VB�;30-12-2024 12:12
+66;Sissing;;Beukenlaan;130;Eindhoven;5616 VB�;10-8-2023 06:41
+67;Sissing;;Kreugelstraat;52D;Eindhoven;5616 SG;13-1-2022 01:38
+68;Screaming/insulting;;Kreugelstraat;52D;Eindhoven;5616 SG;4-7-2020 16:59
+69;Intinidation;;Kreugelstraat;52D;Eindhoven;5616 SG;23-4-2021 20:21
+70;Screaming/insulting;;Kreugelstraat;52D;Eindhoven;5616 SG;26-7-2024 06:37
+71;Intinidation;;Kreugelstraat;52D;Eindhoven;5616 SG;15-8-2022 23:35
+72;Intinidation;;Plaggenstraat;59;Eindhoven;5651 CR;19-3-2024 02:32
+73;Sissing;;Plaggenstraat;59;Eindhoven;5651 CR;23-5-2024 14:46
+74;Screaming/insulting;;Plaggenstraat;59;Eindhoven;5651 CR;23-2-2025 06:48
+75;Screaming/insulting;;Plaggenstraat;59;Eindhoven;5651 CR;11-12-2021 17:36
+76;Intinidation;;Plaggenstraat;59;Eindhoven;5651 CR;22-1-2024 08:45
+77;Intinidation;;Plaggenstraat;59;Eindhoven;5651 CR;14-12-2021 16:08
+78;Sissing;;Woenselse Markt;36B;Eindhoven;5612 CS;17-6-2023 17:16
+79;Intinidation;;Woenselse Markt;36B;Eindhoven;5612 CS;23-11-2020 21:26
+80;Pushing/dragging;;Woenselse Markt;36B;Eindhoven;5612 CS;24-6-2023 21:32
+81;Intinidation;;Woenselse Markt;36B;Eindhoven;5612 CS;5-6-2022 21:26
+82;Intinidation;;Woenselse Markt;36B;Eindhoven;5612 CS;23-1-2025 10:29
+83;Screaming/insulting;;Woenselse Markt;36B;Eindhoven;5612 CS;29-9-2023 05:12
+84;Sissing;;Van Kinsbergenstraat;8;Eindhoven;5612 LM;30-12-2023 03:26
+85;Intinidation;;Van Kinsbergenstraat;8;Eindhoven;5612 LM;14-1-2025 23:44
+86;Intinidation;;Van Kinsbergenstraat;8;Eindhoven;5612 LM;28-3-2021 15:28
+87;Pushing/dragging;;Van Kinsbergenstraat;8;Eindhoven;5612 LM;24-4-2020 17:09
+88;Pushing/dragging;;Van Kinsbergenstraat;8;Eindhoven;5612 LM;18-4-2025 10:58
+89;Screaming/insulting;;Van Kinsbergenstraat;8;Eindhoven;5612 LM;8-8-2022 23:51
+90;Screaming/insulting;;Verwerstraat;131;Eindhoven;5612 EB;19-12-2022 02:00
+91;Sissing;;Verwerstraat;131;Eindhoven;5612 EB;6-9-2020 11:23
+92;Sissing;;Verwerstraat;131;Eindhoven;5612 EB;9-7-2022 01:37
+93;Screaming/insulting;;Verwerstraat;131;Eindhoven;5612 EB;19-8-2021 06:09
+94;Intinidation;;Verwerstraat;131;Eindhoven;5612 EB;27-2-2020 18:37
+95;Sissing;;Verwerstraat;77;Eindhoven;5612 EA;17-6-2021 18:05
+96;Touching;;Verwerstraat;77;Eindhoven;5612 EA;15-8-2022 11:31
+97;Screaming/insulting;;Slagerstraat;37;Eindhoven;5612 ER�;26-2-2022 15:10
+98;Touching;;Slagerstraat;37;Eindhoven;5612 ER�;1-5-2025 06:36
+99;Sissing;;Slagerstraat;37;Eindhoven;5612 ER�;7-3-2023 18:25
+100;Intinidation;;Slagerstraat;37;Eindhoven;5612 ER�;30-9-2021 00:00
