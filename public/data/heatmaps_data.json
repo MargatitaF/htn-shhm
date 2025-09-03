@@ -34,7 +34,7 @@
     },
     {
         "situation_id": 4,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4418507,
         "longitude": 5.4660528,
         "street": "Frederiklaan ",
@@ -144,7 +144,7 @@
     },
     {
         "situation_id": 14,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4445918,
         "longitude": 5.4629863,
         "street": "Olmenlaan",
@@ -540,7 +540,7 @@
     },
     {
         "situation_id": 53,
-        "harassment_type": "",
+        "harassment_type": "Intimidation",
         "latitude": 51.4397305,
         "longitude": 5.4539977,
         "street": "Sint Trudostraat",
@@ -639,7 +639,7 @@
     },
     {
         "situation_id": 62,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4454267,
         "longitude": 5.4487977,
         "street": "Beukenlaan",
@@ -650,7 +650,7 @@
     },
     {
         "situation_id": 63,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4454267,
         "longitude": 5.4487977,
         "street": "Beukenlaan",
@@ -716,7 +716,7 @@
     },
     {
         "situation_id": 69,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4466801,
         "longitude": 5.4497707,
         "street": "Kreugelstraat",
@@ -738,7 +738,7 @@
     },
     {
         "situation_id": 71,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4466801,
         "longitude": 5.4497707,
         "street": "Kreugelstraat",
@@ -749,7 +749,7 @@
     },
     {
         "situation_id": 72,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4473025,
         "longitude": 5.4492314,
         "street": "Plaggenstraat",
@@ -793,7 +793,7 @@
     },
     {
         "situation_id": 76,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4473025,
         "longitude": 5.4492314,
         "street": "Plaggenstraat",
@@ -804,7 +804,7 @@
     },
     {
         "situation_id": 77,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4473025,
         "longitude": 5.4492314,
         "street": "Plaggenstraat",
@@ -826,7 +826,7 @@
     },
     {
         "situation_id": 79,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4506707,
         "longitude": 5.4718923,
         "street": "Woenselse Markt",
@@ -848,7 +848,7 @@
     },
     {
         "situation_id": 81,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4506707,
         "longitude": 5.4718923,
         "street": "Woenselse Markt",
@@ -859,7 +859,7 @@
     },
     {
         "situation_id": 82,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4506707,
         "longitude": 5.4718923,
         "street": "Woenselse Markt",
@@ -892,7 +892,7 @@
     },
     {
         "situation_id": 85,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4500495,
         "longitude": 5.4719869,
         "street": "Van Kinsbergenstraat",
@@ -903,7 +903,7 @@
     },
     {
         "situation_id": 86,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4500495,
         "longitude": 5.4719869,
         "street": "Van Kinsbergenstraat",
@@ -991,7 +991,7 @@
     },
     {
         "situation_id": 94,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.450616,
         "longitude": 5.4740919,
         "street": "Verwerstraat",
@@ -1035,7 +1035,7 @@
     },
     {
         "situation_id": 100,
-        "harassment_type": "Intinidation",
+        "harassment_type": "Intimidation",
         "latitude": 51.4525059,
         "longitude": 5.4742507,
         "street": "Slagerstraat",
@@ -1264,5 +1264,5 @@
         "zip_code": "5611 ER",
         "time": "04-05-2023 23:00"
     }
-
+    
 ]
