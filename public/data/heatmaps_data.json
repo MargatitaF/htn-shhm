@@ -1043,5 +1043,72 @@
         "place": "Eindhoven",
         "zip_code": "5612 ER",
         "time": "30-9-2021 00:00"
+    },
+    {
+        "situation_id": 10,
+        "harassment_type": "Screaming/insulting",
+        "latitude": 51.4399001,
+        "longitude": 5.4787213,
+        "street": "Demer",
+        "number": "45",
+        "place": "Eindhoven",
+        "zip_code": "5611 AN",
+        "time": "12-2-2023 20:14"
+    },
+    {
+        "situation_id": 11,
+        "harassment_type": "Intimidation",
+        "latitude": 51.440552,
+        "longitude": 5.477091,
+        "street": "Rechtestraat",
+        "number": "18",
+        "place": "Eindhoven",
+        "zip_code": "5611 GR",
+        "time": "28-8-2024 22:45"
+    },
+    {
+        "situation_id": 12,
+        "harassment_type": "Sissing",
+        "latitude": 51.441038,
+        "longitude": 5.475982,
+        "street": "Korte Bergen",
+        "number": "7",
+        "place": "Eindhoven",
+        "zip_code": "5611 JX",
+        "time": "5-5-2023 19:12"
+    },
+    {
+        "situation_id": 13,
+        "harassment_type": "Touching",
+        "latitude": 51.441487,
+        "longitude": 5.476879,
+        "street": "Kleine Berg",
+        "number": "12",
+        "place": "Eindhoven",
+        "zip_code": "5611 JS",
+        "time": "22-4-2022 00:32"
+    },
+    {
+        "situation_id": 14,
+        "harassment_type": "Screaming/insulting",
+        "latitude": 51.440081,
+        "longitude": 5.474456,
+        "street": "Stratumseind",
+        "number": "65",
+        "place": "Eindhoven",
+        "zip_code": "5611 EP",
+        "time": "14-10-2021 01:10"
+    },
+    {
+        "situation_id": 15,
+        "harassment_type": "Intimidation",
+        "latitude": 51.439751,
+        "longitude": 5.475328,
+        "street": "Dommelstraat",
+        "number": "8",
+        "place": "Eindhoven",
+        "zip_code": "5611 CJ",
+        "time": "9-12-2020 23:47"
     }
+    
 ]

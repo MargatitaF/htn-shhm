@@ -32,13 +32,13 @@ export default function HomePage() {
           throw new Error(`Response status: ${response.status}`)
         }
         const result = await response.json()
-        let filteredData = []
-        let filteredData1 = []
+        const filteredData = []
+        const filteredData1 = []
         let newCategories: string[] = []
 
         for (let i = 0; i < result.length; i++) {
-          const obj = [result[i].latitude, result[i].longitude, 0.5]
-          const obj1 = [result[i].latitude, result[i].longitude, 0.5, result[i].harassment_type]
+          const obj = [result[i].latitude, result[i].longitude, 0.13]
+          const obj1 = [result[i].latitude, result[i].longitude, 0.13, result[i].harassment_type]
           const categoryType = result[i].harassment_type
 
           if (!newCategories.find((el) => el === categoryType)) {
