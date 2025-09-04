@@ -37,8 +37,8 @@ export default function HomePage() {
         let newCategories: string[] = []
 
         for (let i = 0; i < result.length; i++) {
-          const obj = [result[i].latitude, result[i].longitude, 0.13]
-          const obj1 = [result[i].latitude, result[i].longitude, 0.13, result[i].harassment_type]
+          const obj = [result[i].latitude, result[i].longitude, 0.15]
+          const obj1 = [result[i].latitude, result[i].longitude, 0.15, result[i].harassment_type]
           const categoryType = result[i].harassment_type
 
           if (!newCategories.find((el) => el === categoryType)) {
