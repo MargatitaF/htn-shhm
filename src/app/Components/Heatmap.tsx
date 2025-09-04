@@ -16,8 +16,10 @@ function HeatLayer({ points }: any) {
 
     const heatLayer = (L as any).heatLayer(points, {
       radius: 25,
-      blur: 15,
+      blur: 1,
       maxZoom: 17,
+      minOpacity: 0.2,
+      gradient: {0.1: 'purple', 1: 'red'}
     });
 
     heatLayer.addTo(map);
